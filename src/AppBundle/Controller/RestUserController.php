@@ -33,10 +33,10 @@ class RestUserController extends FOSRestController
     /**
      * @param Request $request
      * @return View
-     * @Route("/newcreate", name="newcreate")
+     * @Route("/createpage", name="newcreate")
      * @Method({"POST"})
      */
-    private function createAction(Request $request){
+    public function createAction(Request $request){
 
         $user = new User();
 
@@ -51,7 +51,13 @@ class RestUserController extends FOSRestController
         return $this->view($user);
     }
 
-    private function putAction(Request $request, $id)
+    /**
+     * @param Request $request
+     * @return View
+     * @Route("/putpage/{id}", name="putpage")
+     * @Method({"PUT"})
+     */
+    public function putAction(Request $request, $id)
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -64,8 +70,24 @@ class RestUserController extends FOSRestController
         $em->persist($user);
         $em->flush();
 
-
         return $this->view($user);
     }
 
+    /**
+     * @param $id
+     * @Method({"DELETE"})
+     * @Route("/deleterest/{id}", name="deleterest")
+     */
+    public function deleteAction($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $user = $em->getRepository(User::class)->find($id);
+
+        $em->remove($user);
+        $em->flush();
+
+        return $this->view($user);
+
+    }
 }

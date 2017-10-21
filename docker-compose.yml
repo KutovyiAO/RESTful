@@ -16,11 +16,10 @@ services:
       container_name: php
       working_dir:  /var/www/Rest
       ports:
-        - "8089:8089"
-        - "8095:8095"
-      command:
+        - "8000"
+      command: bin/console doctrine:database:create && bin/console doctrine:schema:create && bin/console doctrine:schema:update && bin/console server:start
       volumes:
-        - .:/var/www/asat
+        - .:/var/www/Rest
 
       links:
         - mysql

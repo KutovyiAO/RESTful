@@ -77,3 +77,22 @@ fos_user:
         address: "%mailer_user%"
         sender_name: "%mailer_user%"
 
+jms_serializer:
+    metadata:
+        debug: "%kernel.debug%"
+        auto_detection: true
+
+fos_rest:
+#    disable_csrf_role: ROLE_API
+    param_fetcher_listener: true
+    view:
+        mime_types:
+            json: ['application/json', 'application/json;version=1.0', 'application/json;version=1.1', 'application/json;version=1.2']
+        view_response_listener: 'force'
+        formats:
+            xml:  false
+            json: true
+    format_listener:
+        rules:
+            - { path: ^/, priorities: [ json ], fallback_format: ~, prefer_extension: false }
+
