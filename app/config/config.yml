@@ -96,3 +96,12 @@ fos_rest:
         rules:
             - { path: ^/, priorities: [ json ], fallback_format: ~, prefer_extension: false }
 
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        # enable the SonataAdminBundle block
+        sonata.admin.block.admin_list:
+            contexts: [admin]
+
+framework:
+    translator: { fallbacks: [en] }

@@ -1,3 +1,307 @@
+DELETE http://127.0.0.1:8000/deleterest/2?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T045443.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/deleterest/1?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T045438.500.json
+
+###
+
+DELETE http://127.0.0.1:8000/deleterest/1?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T045322.200.json
+
+###
+
+DELETE http://127.0.0.1:8000/deleterest/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T044651.200.json
+
+###
+
+PUT http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043811.200.json
+
+###
+
+PUT http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043754.404.json
+
+###
+
+PUT http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043632.404.json
+
+###
+
+PUT http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043602.404.json
+
+###
+
+POST http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043544.404.json
+
+###
+
+POST http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043359.404.json
+
+###
+
+POST http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043329.404.json
+
+###
+
+POST http://127.0.0.1:8000/putpage/10?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T043034.404.json
+
+###
+
+POST http://127.0.0.1:8000/putpage?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T042844.500.json
+
+###
+
+POST http://127.0.0.1:8000/createpage?name=vas&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T042123.200.json
+
+###
+
+POST http://127.0.0.1:8000/createpage?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T042107.200.json
+
+###
+
+POST http://127.0.0.1:8000/createpage?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T042022.500.json
+
+###
+
+POST http://127.0.0.1:8000/createpage?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T041931.500.json
+
+###
+
+POST http://127.0.0.1:8000/newcreate?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T041813.500.json
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T040846.200.json
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T040032.500.html
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T031852.500.html
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-21T031823.500.html
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-20T052913.500.html
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T075541.500.html
+
+###
+
+GET http://127.0.0.1:8000/home?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T075507.500.html
+
+###
+
+GET http://127.0.0.1:8000/indexrest?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T075416.500.html
+
+###
+
+GET http://127.0.0.1:8000/Restindex?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T044707.404.html
+
+###
+
+POST http://127.0.0.1:8000/Restcreate?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T044614.404.html
+
+###
+
+POST http://127.0.0.1:8000/create?name=vasya&age=25&male=3
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T033353.200.json
+
+###
+
+POST http://127.0.0.1:8000/create?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T033309.200.json
+
+###
+
+GET http://127.0.0.1:8000/index?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T123113.200.json
+
+###
+
+GET http://127.0.0.1:8000/index?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T123032.500.html
+
+###
+
+GET http://127.0.0.1:8000/index?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T122911.500.html
+
+###
+
+GET http://127.0.0.1:8000/index?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T122731.500.html
+
+###
+
+GET http://127.0.0.1:8000/index?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T122730.500.html
+
+###
+
+GET http://127.0.0.1:8000/index?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T121826.500.html
+
+###
+
+GET http://127.0.0.1:8000?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T121807.500.html
+
+###
+
+GET http://127.0.0.1:8000?name=vasya&age=25&male=1
+Accept:*/*
+Cache-Control:no-cache
+
+<> 2017-10-19T120148.500.html
+
+###
+
 DELETE http://127.0.0.1:8001/delete/134?name=vasya&age=25&male=1
 Accept:*/*
 Cache-Control:no-cache
@@ -91,102 +395,6 @@ Accept:*/*
 Cache-Control:no-cache
 
 <> 2017-10-08T085311.200.json
-
-###
-
-GET http://127.0.0.1:8001/get/5
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T085301.200.json
-
-###
-
-GET http://127.0.0.1:8001/get/5
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T085300.200.json
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T084200.200.json
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T083657.500.html
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T083403.500.html
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T083319.500.html
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T083214.200.json
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T083115.500.html
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T082954.200.json
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T082915.200.json
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123&age=12334&male=4455
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T082509.200.json
-
-###
-
-POST http://127.0.0.1:8001/create?2334=&name=123
-Accept:*/*
-Cache-Control:no-cache
-
-<> 2017-10-08T082413.500.html
 
 ###
 
